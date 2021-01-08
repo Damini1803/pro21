@@ -66,7 +66,7 @@ function draw() {
     }
 
     
-    if(d.isTouching(box) && box.bouceOff(d)){
+    if(d.isTouching(box) && box.bounceOff(d)){
         box.shapeColor = "green";
         music.stop()
     }
